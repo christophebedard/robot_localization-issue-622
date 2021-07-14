@@ -40,3 +40,8 @@ Minimal working example to reproduce:
     [ekf_node-1] terminate called after throwing an instance of 'std::runtime_error'
     [ekf_node-1]   what():  can't subtract times with different time sources [1 != 2]
     ```
+
+## Fix
+
+Fixed by https://github.com/cra-ros-pkg/robot_localization/pull/679.
+
